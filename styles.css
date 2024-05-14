@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Cloning App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Voice Cloning App</h1>
+        <textarea id="text-input" rows="5" cols="50" placeholder="Enter text here"></textarea><br>
+        <button onclick="synthesizeSpeech()">Synthesize</button><br>
+        <audio id="audio-output" controls></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
